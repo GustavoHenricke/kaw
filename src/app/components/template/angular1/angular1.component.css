@@ -1,0 +1,64 @@
+body{
+    background-color:rgb(239, 203, 130) ;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #img1,#img2,#img3,#img4{
+      width: 400px;
+      height: 310px;
+      margin: 150px auto;
+      margin-top: 20px;
+}
+#container{
+	width:480px;
+	height:590px;
+	margin:150px auto;
+	background-color:#ddd;	
+    margin-top: 0px;
+	}
+
+.principal{
+	width:480px;
+	height:270px;
+	border: solid 1px #0000;
+	}
+	
+label img{
+	opacity:.3;
+	width:120px;
+	float:left;
+	cursor:pointer;
+	transition:all .4s;
+	}
+	
+.slide{
+	display:flex;
+	width:400%;	
+	transition: all .8s ease-in-out;
+	}
+
+input[name="grupo"]{
+	display:none;
+	}
+
+
+#foto2:checked~  .principal .slide{
+	margin-left:-100%;	
+	}
+
+#foto3:checked~.principal  .slide{
+	margin-left:-200%;
+
+	}
+	
+#foto4:checked~.principal .slide{
+	margin-left:-300%;
+	}
+
+input[name="grupo"]:checked + label img{
+	opacity:.9;
+	}
+  

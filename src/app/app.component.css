@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(90deg, #ef0303, #1100fb, #001aff, #ef0303);
+  background-size: 150% 200%;
+  animation: colors 3s ease infinite;
+
+}
+
+@keyframes colors{
+    
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+}

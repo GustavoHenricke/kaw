@@ -1,0 +1,103 @@
+<div id="corpo">
+<div class="content">
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="row">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" autocomplete="off" required>
+            </div>
+            <div class="row">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" autocomplete="off"
+                    required>
+            </div>
+            <div class="row">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="e-mail" autocomplete="off" required>
+            </div>
+            <div class="row">
+                <label for="dtnasc">Data de Nascimento</label>
+                <input type="date" id="dtnasc" name="dtnasc">
+            </div>
+            <div class="row">
+                <label for="peso">Peso</label>
+                <input type="number" id="peso" name="nome" placeholder="Digite seu peso" autocomplete="off" required>
+            </div>
+            <div class="row">
+                <label for="">Condição física</label>
+                <input type="radio" value="magro" id="casado" name="condiçãofísica">
+                <label for="magro">Magro</label>
+                <input type="radio" value="medio" id="solteiro" name="condiçãofísica">
+                <label for="medio">Médio</label>
+                <input type="radio" value="gordo" id="casado" name="condiçãofísica">
+                <label for="gordo">Gordo</label>
+                
+            </div>
+            <div class="row">
+                <label for="filhos">Filhos</label>
+                <input type="number" id="filhos" name="filhos" max="10" min="0">
+            </div>
+            <div class="row"></div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <div class="row">
+                <label for="">Posição que joga</label>
+            </div>
+            <div class="gender-group">
+                <div class="gender-input">
+                    <input id="female" type="radio" name="gender">
+                    <label for="female">Zagueiro</label>
+                </div>
+                <div class="gender-input">
+                    <input id="male" type="radio" name="gender">
+                    <label for="male">Volante</label>
+                </div>
+                <div class="gender-input">
+                    <input id="others" type="radio" name="gender">
+                    <label for="others">Meio-Campo</label>
+                </div>
+                <div class="gender-input">
+                    <input id="none" type="radio" name="gender">
+                    <label for="none">Lateral-E</label>
+                </div>
+                <div class="gender-input">
+                    <input id="none" type="radio" name="gender">
+                    <label for="none">Lateral-D</label>
+                </div>
+                <div class="gender-input">
+                    <input id="none" type="radio" name="gender">
+                    <label for="none">Atacante</label>
+                </div>
+                <div class="gender-input">
+                    <input id="none" type="radio" name="gender">
+                    <label for="none">Centro Avante</label>
+                </div>
+                <div class="gender-input">
+                    <input id="none" type="radio" name="gender">
+                    <label for="none">Goleiro</label>
+                </div>
+                 <br>
+                
+            </div>
+            <div class="row">
+                <label for="sobre">Fale sobre você</label>
+            </div>
+            <div class="row">
+                <textarea name="sobre" id="sobre" cols="30" rows="5" placeholder="Descreva as suas habilidades"
+                    autocomplete="off"></textarea>
+            </div>
+            <div class="row">
+                <input type="file" accept=".pdf, .docx">
+            </div>
+        </fieldset>
+        <div class="buttons">
+            <input type="submit">
+            <input type="reset" value="Limpar">
+        </div>
+
+    </form>
+</div>
+
+</div>

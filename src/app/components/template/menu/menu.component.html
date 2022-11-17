@@ -1,0 +1,35 @@
+
+      
+ 
+      
+
+  
+  <button id ="butao" mat-icon-button [matMenuTriggerFor]="atividades" aria-label="Example icon-button with a menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  
+
+<mat-menu #atividades="matMenu" >
+  <div id="subbutao">
+    <button mat-menu-item [matMenuTriggerFor]="primeiro"> <mat-icon>android</mat-icon> Exemplo </button>
+    <button mat-menu-item [matMenuTriggerFor]="segundo"> <mat-icon>android</mat-icon> Exemplo</button>
+  </div> 
+</mat-menu>
+
+<mat-menu #primeiro="matMenu">
+  <div id="subbutao">
+    <button mat-menu-item>1</button>
+    <button mat-menu-item>2</button>
+    <button mat-menu-item>3</button>
+</div>
+</mat-menu>
+
+<mat-menu #segundo="matMenu">
+  <div id="subbutao">
+    <button mat-menu-item>1</button>
+    <button mat-menu-item>2</button>
+    <button mat-menu-item>3</button>
+</div>
+</mat-menu>
+
+
