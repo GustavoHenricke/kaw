@@ -11,25 +11,36 @@
 
 <mat-menu #atividades="matMenu" >
   <div id="subbutao">
-    <button mat-menu-item [matMenuTriggerFor]="primeiro"> <mat-icon>android</mat-icon> Exemplo </button>
-    <button mat-menu-item [matMenuTriggerFor]="segundo"> <mat-icon>android</mat-icon> Exemplo</button>
+    <button mat-menu-item [matMenuTriggerFor]="primeiro"> <mat-icon>android</mat-icon> Atividades </button>
   </div> 
 </mat-menu>
 
 <mat-menu #primeiro="matMenu">
   <div id="subbutao">
-    <button mat-menu-item>1</button>
-    <button mat-menu-item>2</button>
-    <button mat-menu-item>3</button>
+    <button mat-menu-item><h1>CSS</h1></button>
+    <a routerLink="/css"><button mat-menu-item>Conceitos</button></a>
+    <a routerLink="/css1"><button mat-menu-item>Propriedades</button></a>
+    <a routerLink="/css2"><button mat-menu-item>Exemplos</button></a>
+    
+    <button mat-menu-item><h1>FORMULÁRIO</h1></button>
+    <a routerLink="/form"><button mat-menu-item>Componentes</button></a>
+    <a routerLink="/form1"><button mat-menu-item>Conceitos</button></a>
+
+    <button mat-menu-item><h1>5 Forms</h1></button>
+    <a routerLink="/form2"><button mat-menu-item>1º</button></a>
+    <a routerLink="/form3"><button mat-menu-item>2º</button></a>
+    <a routerLink="/form4"><button mat-menu-item>3º</button></a>
+    <a routerLink="/form5"><button mat-menu-item>4º</button></a>
+    <a routerLink="/form6"><button mat-menu-item>5º</button></a>
+
+    <button mat-menu-item><h1>Projeto Angular</h1></button>
+    <a routerLink="/angular"><button mat-menu-item>Formulário</button></a>
+    <a routerLink="/angular1"><button mat-menu-item>Slide</button></a>
+
+
+
 </div>
 </mat-menu>
 
-<mat-menu #segundo="matMenu">
-  <div id="subbutao">
-    <button mat-menu-item>1</button>
-    <button mat-menu-item>2</button>
-    <button mat-menu-item>3</button>
-</div>
-</mat-menu>
 
 
